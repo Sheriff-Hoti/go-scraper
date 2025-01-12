@@ -1,0 +1,14 @@
+https://www.youtube.com/watch?v=gXmznGEW9vo
+minute: 5:35
+
+./scraper -url <url-value> +
+
+-handle redirects 301,302 codes
+-check pages already visited
+-dont go to the other origin
+use net/http +
+use net/html to parse the html +
+
+to make more sophisticated use a go-playwright for js based sites and introduce concurrency
+
+missing some edge cases for eg query params but until now it seems ok
